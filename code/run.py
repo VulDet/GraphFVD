@@ -661,16 +661,16 @@ def main():
     parser.add_argument("--alpha_weight", default=1., type=float, help="percet of training sample")
 
     input_argument = [
-        "--output_dir", "./saved_models/linux",
+        "--output_dir", "./saved_models",
         "--model_type", "roberta",
-        "--tokenizer_name", "/media/ding20/Data/smm/dataset/graphcodebert-base",  # "microsoft/graphcodebert-base",
-        "--model_name_or_path", "/media/ding20/Data/smm/dataset/graphcodebert-base",  # "microsoft/graphcodebert-base",
+        "--tokenizer_name", "microsoft/graphcodebert-base",  
+        "--model_name_or_path", "microsoft/graphcodebert-base",
         "--do_eval",
         "--do_test",
         "--do_train",
-        "--train_data_file", "../dataset/Linux/my_train.jsonl",
-        "--eval_data_file", "../dataset/Linux/my_valid.jsonl",
-        "--test_data_file", "../dataset/Linux/my_test.jsonl",
+        "--train_data_file", "../dataset/NVD/my_train.jsonl",
+        "--eval_data_file", "../dataset/NVD/my_valid.jsonl",
+        "--test_data_file", "../dataset/NVD/my_test.jsonl",
         "--block_size", "400",
         "--train_batch_size", "32",
         "--eval_batch_size", "32",

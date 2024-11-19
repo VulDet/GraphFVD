@@ -1,1 +1,1 @@
-The original data can be downloaded from [GraphFVD dataset](xxx).
+The dataset can be downloaded from [GraphFVD dataset](xxx).

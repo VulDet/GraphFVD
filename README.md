@@ -6,7 +6,7 @@ In this repository, you will find a Python implementation of our GraphFVD. As de
 - Python 3.7.2
 - Pytorch 1.9.1
 - Transformer 4.30.2
-- tokenizers 0.13.3
+- Tokenizers 0.13.3
 # Training and Evaluation
 ```
 python my_preprocess.py

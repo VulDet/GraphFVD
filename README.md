@@ -1,5 +1,5 @@
 # GraphFVD: Property Graph-based Fine-grained Vulnerability Detection
-This is an official implementation of our paper "GraphFVD: Property Graph-based Fine-grained Vulnerability Detection".
+This is an official implementation of our paper "[GraphFVD: Property Graph-based Fine-grained Vulnerability Detection](https://www.sciencedirect.com/science/article/abs/pii/S0167404825000392)".
 # Overview 
 In this repository, you will find a Python implementation of our GraphFVD. As described in our paper, GraphFVD is a novel property graph-based fine-grained vulnerability detection approach. Our approach extracts property graph-based slices from the Code Property Graph and introduces a Hierarchical Attention Graph Convolutional Network to learn graph embeddings. 
 # Requirements
